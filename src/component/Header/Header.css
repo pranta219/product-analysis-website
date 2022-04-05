@@ -1,0 +1,18 @@
+.display {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.text {
+    margin-left: 100px;
+    margin-top: 215px;
+    color: blueviolet;
+}
+
+.text-xl {
+    color: #084298;
+}
+
+.img {
+    margin-top: 100px;
+}

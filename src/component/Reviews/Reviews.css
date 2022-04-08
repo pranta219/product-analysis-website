@@ -1,0 +1,15 @@
+.containt {
+    margin-top: 0;
+    display: grid;
+    justify-content: center;
+}
+
+.text-center {
+    margin-bottom: 50px;
+    color: brown;
+}
+
+.review-containt {
+    display: flex;
+    gap: 45px;
+}

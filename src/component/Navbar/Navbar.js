@@ -1,28 +1,16 @@
-import React, { useState } from 'react';
-import Link from '../Link/Link';
+import React from 'react';
 import './Navbar.css'
-import { MenuIcon } from '@heroicons/react/solid'
+
+import CustomLink from '../CustomLink/CustomLink';
 
 const Navbar = () => {
-    let [open, setOpen] = useState(false)
-    let routes = [
-        { id: 1, name: 'Home', link: '/home' },
-        { id: 1, name: 'Reviews', link: '/reviews' },
-        { id: 1, name: 'Dashboard', link: '/dashboard' },
-        { id: 1, name: 'Blogs', link: '/blogs' }
-    ]
-
     return (
-        <nav>
-            <div onClick={() => setOpen(!open)} className='w-6 h-6 md:hidden'>
-                <MenuIcon></MenuIcon>
-            </div>
-            <ul className='md:flex justify-end color'>
-                {
-                    routes.map(route => <Link key={route.id}
-                        route={route}
-                    ></Link>)
-                }
+        <nav className='color'>
+            <ul className='ul'>
+                <li><CustomLink className='a' to="/">Home</CustomLink></li>
+                <li><CustomLink className='a' to="/reviews">Reviews</CustomLink></li>
+                <li><CustomLink className='a' to="/dashboard">Dashboard</CustomLink></li>
+                <li><CustomLink className='a' to="/blogs">Blogs</CustomLink></li>
             </ul>
         </nav>
     );

@@ -3,3 +3,16 @@
     opacity: 80%;
     height: 60px;
 }
+
+.ul {
+    display: inline-flex;
+}
+
+li {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+li .a {
+    color: aliceblue;
+}

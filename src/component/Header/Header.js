@@ -18,16 +18,16 @@ const Header = () => {
                     <img className='img' src={'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MK0U3_FV404?wid=1420&hei=930&fmt=png-alpha&.v=1645143356602.jpg'} alt="#" />
                 </div>
             </div>
+            <h1 className='mt-60 text-center'>Customer Reviews</h1>
             <div className='reviews'>
-                <h1>Customer Reviews</h1>
                 {
                     reviews.slice(0, 3).map(review => <SingleReview
                         key={review.id}
                         review={review}
                     ></SingleReview>)
                 }
+                <a href="/reviews">See All Reviews</a>
             </div>
-            <button></button>
         </div>
     );
 };

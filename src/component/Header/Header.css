@@ -23,4 +23,22 @@
     font-size: revert;
 }
 
-.reviews {}
+.reviews {
+    display: grid;
+    grid-template-columns: 312px 312px 312px;
+    margin-left: 510px;
+}
+
+.reviews a {
+    margin-left: 364px;
+    margin-right: -176px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #3f66d1;
+    border-radius: 8px;
+    padding: 5px;
+    text-decoration: none;
+    color: crimson;
+    font-family: revert;
+    font-size: revert;
+}

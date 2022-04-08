@@ -10,6 +10,6 @@
 }
 
 .review-containt {
-    display: flex;
-    gap: 45px;
+    display: grid;
+    grid-template-columns: 235px 235px 235px 235px 235px 235px;
 }

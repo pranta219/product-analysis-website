@@ -15,7 +15,7 @@ const Header = () => {
                     <a href="/reviews">Reviews</a>
                 </div>
                 <div>
-                    <img className='img' src={'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MK0U3_FV404?wid=1420&hei=930&fmt=png-alpha&.v=1645143356602.jpg'} alt="#" />
+                    <img className='img' src={'https://images.pexels.com/photos/1714202/pexels-photo-1714202.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'} alt="#" />
                 </div>
             </div>
             <h1 className='mt-60 text-center'>Customer Reviews</h1>
